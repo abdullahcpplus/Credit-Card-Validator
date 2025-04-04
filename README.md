@@ -1,3 +1,5 @@
+
+
 This software based on the Luhn algorithm. Here's some basics os this algorithm.
 
 (NOTE: credit card number have 16 numbers)
