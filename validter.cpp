@@ -25,6 +25,7 @@ string card;
 int result;
 cout<<"Enter your card number: ";
 cin>> card;
+if(card.size()==16){
 result= sumeven(card)+ sumodd(card);
 if(result%10 == 0){
 
@@ -34,6 +35,10 @@ if(result%10 == 0){
 else{
     cout<<"That number is not valid"<< endl;
     Sleep(1000);
+}
+}
+else{
+    cout<<"Ivalid number"<< endl;
 }
     return 0;
 }
